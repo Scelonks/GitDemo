@@ -43,7 +43,7 @@ public void user_is_on_green_cart_landing_page() {
 		System.out.println(landingPageProductName +" is extracted from Home page");
 		
 		System.out.println("This is tested");
-		System.out.println("This is not tested")
+		System.out.println("This is not tested");
 			
 }
 

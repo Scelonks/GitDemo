@@ -55,6 +55,8 @@ public class LandingPage {
 	public void selectTopDealsPage()
 	{
 		driver.findElement(topDeals).click();
+		System.out.println("develop branch");
+		System.out.println("develop branch");
 	}
 	
 	public String getTitleLandingPage()
