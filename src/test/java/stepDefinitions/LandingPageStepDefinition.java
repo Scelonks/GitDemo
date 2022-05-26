@@ -41,6 +41,9 @@ public void user_is_on_green_cart_landing_page() {
 		Thread.sleep(2000);
 		testContextSetup.landingPageProductName = landingPage.getProductName().split("-")[0].trim();
 		System.out.println(landingPageProductName +" is extracted from Home page");
+		
+		System.out.println("This is tested");
+		System.out.println("This is not tested")
 			
 }
 

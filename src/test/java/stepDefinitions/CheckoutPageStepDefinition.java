@@ -37,6 +37,8 @@ public void  verify_user_has_ability_enter_promo()
 	
 	Assert.assertTrue(checkoutPage.VerifyPromoBtn());
 	Assert.assertTrue(checkoutPage.VerifyPlaceOrder());
+	System.out.println("This is tested");
+	System.out.println("This is not tested");
 	
 }
 

@@ -41,6 +41,9 @@ TestContextSetup testContextSetup;
 		byte[] fileContent = FileUtils.readFileToByteArray(sourcePath);
 		scenario.attach(fileContent, "image/png", "image");
 		
+		System.out.println("This is tested");
+		System.out.println("This is not tested")
+		
 		}
 		
 	}
